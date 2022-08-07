@@ -1,22 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import SearchEngine from './SearchEngine.js';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h4>Weather Search Engin</h4>
+        <SearchEngine/>
+        <a href='https://github.com/melika760/my-app/tree/master/src'>GitHub repository</a>
       </header>
     </div>
   );
