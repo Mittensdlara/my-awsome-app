@@ -1,5 +1,16 @@
 .App {
- 
+  font-size: 30px;
   text-align: center;
+  
   color: blueviolet;
+}
+a {
+  font-size: 12px;
+}
+ul {
+  list-style: none;
+  font-size: 15px;
+}
+li {
+  color: rgb(4, 7, 6);
 }

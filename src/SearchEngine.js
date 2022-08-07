@@ -40,10 +40,10 @@ export default function SearchEngin() {
         {form}
         <ul>
           <li>{City}</li>
-          <li>Temperature:{Weather.temperature}</li>
-          <li>Description:{Weather.description}</li>
-          <li>Humidity:{Weather.humidity}</li>
-          <li>Wind:{Weather.wind}</li>
+          <li>🌡Temperature:{Weather.temperature}</li>
+          <li>🌤Description:{Weather.description}</li>
+          <li>☁Humidity:{Weather.humidity}%</li>
+          <li>💨Wind:{Weather.wind}Km/h</li>
           <li>
             <img src={Weather.icon} alt={Weather.description} />
           </li>
