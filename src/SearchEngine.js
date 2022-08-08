@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import axios from "axios";
-export default function SearchEngin() {
+export default function SearchEngine() {
   const [City, SetCity] = useState("");
   const [loaded, Setloaded] = useState(false);
   const [Weather, SetWeather] = useState({});
