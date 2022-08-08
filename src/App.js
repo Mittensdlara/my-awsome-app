@@ -9,7 +9,7 @@ function App() {
         <br />
         <footer>
         
-        <a href='https://github.com/Mittensdlara/my-awsome-app' target="_blank">Open source</a>
+        <a href='https://github.com/Mittensdlara/my-awsome-app'>Open source</a>
 
 
       </footer></header>
